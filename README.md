@@ -12,3 +12,4 @@ i put this notes here bc arent for the website ofc
 im struggling with the sync
 still trying
 again
+again
