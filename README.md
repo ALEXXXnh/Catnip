@@ -13,3 +13,7 @@ im struggling with the sync
 still trying
 again
 again
+  <p>this is suppoused to be text no?</p>
+    <p>idk how to see what am I doing</p>
+    <p> i sthis aotomatically showing up in my demo? OK not in the demo but in the local one</p>
+more notes
