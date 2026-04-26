@@ -15,6 +15,7 @@
     h1 {
         font-size: 200px;
         color: #a16210;
+        
     }
     p {
         font-size: 30px;
@@ -22,7 +23,7 @@
     .title-box
     {
        position: relative;
-       width: 100%;
+       width: 2000px;
        max-width: 1200px;
        margin: 0 auto;
        height: 200px;
@@ -31,10 +32,15 @@
         position: relative;
         top: 20px;
     }
+    .gradienttitletext {
+        background: linear-gradient(to bottom, #772A00 20%, #a16210 80%);
+        -webkit-background-clip: text; background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
     .decoration {
         position: absolute;
         top: -170px;
-        left: 23%;
+        left: 10%;
         width: 450px;
     }
     .decoration2 {
@@ -43,6 +49,32 @@
         left: 60%;
         width: 300px;
     }
+    .play {
+        position: relative;
+        height: 50%;
+        margin-top: 180px;
+        margin-left: 25%;
+        width: 300px;
+    }
+    .playbutton {
+        position: absolute;
+        z-index: 2;
+        width:300px;
+    }
+    .playbuttonshade {
+        position: absolute;
+        top: 0px;
+        width: 300px;
+        z-index: 1;
+
+    }
+    .photo {
+        position:absolute;
+        top: 170px;
+        margin-left: -76%;
+        width: 700px;
+    }
+    
                    </style>
 <body>
     <div class="title-box">
@@ -50,9 +82,17 @@
     <img src="gatologo4.png" class="decoration">
     <div class="title">
         <img src="gatoportada3.png" class="decoration2">
-     <h1>Catnip</h1>
+     <h1 class="gradienttitletext"> Catnip </h1>
      </div> 
+
    </div>
-  
+   <div class="play">
+    <img src="pawplay.png" class="playbutton">
+    <img src="pawplayshade.png" class="playbuttonshade">
+    </div>
+
+    <div class="photodec">
+        <img src="photodec cat.png" class="photo">
+    </div>
 </body>
 </html>
