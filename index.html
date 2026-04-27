@@ -76,7 +76,9 @@
     }
     
                    </style>
+    
 <body>
+    <div id="home">
     <div class="title-box">
    <div class="title">
     <img src="gatologo4.png" class="decoration">
@@ -86,13 +88,25 @@
      </div> 
 
    </div>
-   <div class="play">
-    <img src="pawplay.png" class="playbutton">
+   <div id="playaction" class="play">
+    <img src="pawplay.png" class="playbutton" onclick="alert('caldo')">
     <img src="pawplayshade.png" class="playbuttonshade">
     </div>
 
     <div class="photodec">
         <img src="photodec cat.png" class="photo">
     </div>
+    </div>
+
+    <div id="game1"
+    style="display: none;">
+    <h1>LEVEL 1</h1>
+    </div>
+    <script>
+        const mybutton = document.getElementById('playaction');
+        const home = document.getElementById('home')
+        const game1 = document
+        mybutton.addEventListener('click', () => { ...});
+    </script>
 </body>
 </html>
