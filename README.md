@@ -17,3 +17,4 @@ again
     <p>idk how to see what am I doing</p>
     <p> i sthis aotomatically showing up in my demo? OK not in the demo but in the local one</p>
 more notes
+im bout to cry its too hard

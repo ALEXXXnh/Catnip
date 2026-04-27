@@ -1,0 +1,67 @@
+ body {
+            font-family: Georgia, monospace;
+            font-size: 100px;
+            text-align: center;
+            background-color: #f1ebcf;
+    }  
+    h1 {
+        font-size: 200px;
+        color: #a16210;
+    }
+    p {
+        font-size: 30px;
+    }
+    .title-box
+    {
+       position: relative;
+       width: 2000px;
+       max-width: 1200px;
+       margin: 0 auto;
+       height: 200px;
+    }
+    .title {
+        position: relative;
+        top: 20px;
+    }
+    .gradienttitletext {
+        background: linear-gradient(to bottom, #772A00 20%, #a16210 80%);
+        -webkit-background-clip: text; background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .decoration {
+        position: absolute;
+        top: -170px;
+        left: 10%;
+        width: 450px;
+    }
+    .decoration2 {
+        position: absolute;
+        top: -140px;
+        left: 60%;
+        width: 300px;
+    }
+    .play {
+        position: relative;
+        height: 50%;
+        margin-top: 180px;
+        margin-left: 25%;
+        width: 300px;
+    }
+    .playbutton {
+        position: absolute;
+        z-index: 2;
+        width:300px;
+    }
+    .playbuttonshade {
+        position: absolute;
+        top: 0px;
+        width: 300px;
+        z-index: 1;
+
+    }
+    .photo {
+        position:absolute;
+        top: 170px;
+        margin-left: -76%;
+        width: 700px;
+    }
