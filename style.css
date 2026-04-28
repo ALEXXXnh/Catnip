@@ -64,8 +64,16 @@
         top: 170px;
         margin-left: -70%;
         width: 700px;
+        z-index: 10;
     }
-
+ #home .playbutton:hover {
+        transform: scale(1.1);
+        filter: brightness(110%);
+    }
+    .photo:hover {
+        transform: scale(1.1);
+        filter:brightness(102%);
+    }
 
 #game1 {
         display: none;
