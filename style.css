@@ -58,13 +58,7 @@
         width: 300px;
         z-index: 1;
 
-    }
-    .photo {
-        position:absolute;
-        top: 170px;
-        margin-left: -70%;
-        width: 700px;
-        z-index: 10;
+    
     }
  #home .playbutton:hover {
         transform: scale(1.1);
@@ -75,6 +69,31 @@
         filter:brightness(102%);
     }
 
+
+    #photogallery h2{ 
+        font-family: Georgia, monospace; 
+        font-size: 120px;
+        margin: 0;
+        position: relative;
+        top: 20px;
+        text-align: center;
+        background: linear-gradient(to bottom, #772A00 20%, #a16210 80%) !important;
+        -webkit-background-clip: text !important;
+        background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        
+    }
+    #photogalleryclick  {
+        position:relative;
+        top: 170px;
+        margin-left: -70%;
+        width: 100px;
+        z-index: 10;}
+    #photogallery h2 {
+        transition: all 0.3s ease;
+        cursor: pointer;
+        
+    }
 #game1 {
         display: none;
         text-align: center;

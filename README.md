@@ -18,3 +18,4 @@ again
     <p> i sthis aotomatically showing up in my demo? OK not in the demo but in the local one</p>
 more notes
 im bout to cry its too hard
+im confused but i can understand some more, im searching all rules by google, today im letting this with the issues bc i want to sleep soooo bad
