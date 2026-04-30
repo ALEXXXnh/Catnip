@@ -20,3 +20,5 @@ more notes
 im bout to cry its too hard
 im confused but i can understand some more, im searching all rules by google, today im letting this with the issues bc i want to sleep soooo bad
 too hard but this time im not using google, i can tell its all by my own
+why isnt thiis 
+why wakatime not working lmao
