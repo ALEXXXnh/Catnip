@@ -14,5 +14,5 @@ const gallerybutton = document.getElementById('photogalleryclick');
 
         gallerybutton.addEventListener('click', () => {
             home.style.display = 'none'
-            photogalleryclick.style.display = 'flex';
+            photogalleryclick.style.display = 'flex'
         });

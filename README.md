@@ -22,3 +22,4 @@ im confused but i can understand some more, im searching all rules by google, to
 too hard but this time im not using google, i can tell its all by my own
 why isnt thiis 
 why wakatime not working lmao
+i had to reset VS bc whaaaat hell nawh
