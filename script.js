@@ -13,6 +13,6 @@ const gallerybutton = document.getElementById('photogalleryclick');
         const photogalleryclick = document.getElementById('photogalleryclick')
 
         gallerybutton.addEventListener('click', () => {
-            home.style.display = 'none'
+            home1.style.display = 'none'
             photogalleryclick.style.display = 'flex'
         });
