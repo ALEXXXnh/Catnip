@@ -49,47 +49,46 @@
     }
     .playbutton {
         position: absolute;
-        z-index: 2;
+        z-index: 6;
         width:300px;
     }
     .playbuttonshade {
         position: absolute;
         top: 0px;
         width: 300px;
-        z-index: 1;
+        z-index: 5;
 
     
     }
  #home .playbutton:hover {
         transform: scale(1.1);
         filter: brightness(110%);
-    }
-    .photo:hover {
-        transform: scale(1.1);
-        filter:brightness(102%);
+    
     }
 
 
-    #photogallery h2{ 
+    #photogalleryclick h2{ 
         font-family: Georgia, monospace; 
-        font-size: 120px;
+        font-size: 170px;
         margin: 0;
-        position: relative;
+        position:relative;
         top: 20px;
         text-align: center;
         background: linear-gradient(to bottom, #772A00 20%, #a16210 80%) !important;
         -webkit-background-clip: text !important;
         background-clip: text !important;
         -webkit-text-fill-color: transparent !important;
+        z-index: 1;
         
     }
-    #photogalleryclick  {
-        position:relative;
-        top: 170px;
-        margin-left: -70%;
-        width: 100px;
-        z-index: 10;}
-    #photogallery h2 {
+    #photogalleryclick .photoclickgallery
+    {
+        position:absolute;
+        top: 20px;
+        margin-left: -57%;
+        width: 900px;
+        z-index: 2;}
+    #photogalleryclick h2 {
         transition: all 0.3s ease;
         cursor: pointer;
         
