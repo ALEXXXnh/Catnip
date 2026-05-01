@@ -23,3 +23,5 @@ too hard but this time im not using google, i can tell its all by my own
 why isnt thiis 
 why wakatime not working lmao
 i had to reset VS bc whaaaat hell nawh
+home.js has been created by itself, idk
+i deleted some lines from html from the index

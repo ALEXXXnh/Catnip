@@ -1,4 +1,5 @@
-    body { 
+    body 
+    { 
             font-family: Georgia, monospace;
             font-size: 100px;
             text-align: center;
@@ -57,16 +58,31 @@
         top: 0px;
         width: 300px;
         z-index: 5;
-
-    
+ 
     }
- #home .playbutton:hover {
+    .playbutton:hover {
         transform: scale(1.1);
         filter: brightness(110%);
-    
     }
 
-    #photogalleryclick h2{ 
+
+
+
+
+     .photoclickgallery
+    {
+        position:absolute;
+        top: 280px;
+        margin-left: -57%;
+        width: 860px;
+    }
+    
+#photogalleryclick 
+
+
+
+    #photodecoration .photogallerytitle
+    { 
         display: none;
         font-family: Georgia, monospace; 
         font-size: 170px;
@@ -78,30 +94,27 @@
         -webkit-background-clip: text !important;
         background-clip: text !important;
         -webkit-text-fill-color: transparent !important;
-        
 
     }
-    #photogalleryclick .photoclickgallery
+     .photoclickgallery
     {
         position:absolute;
-        top: -50px;
+        top: 280px;
         margin-left: -57%;
         width: 860px;
-        z-index: 1;}
-
-
-    #photogalleryclick h2:hover {
+    }
+   
+    #photogalleryclick .photodecoration:hover {
         transition: all 0.3s ease;
         cursor: pointer;
-        z-index: 2;
-
     }
+
 #game1 {
         display: none;
         text-align: center;
         width: 100%;
 }
-body #game1 h1 {
+    #game1 h1 {
         font-family: Georgia, monospace; 
         font-size: 300px;
         margin: 0;

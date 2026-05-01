@@ -8,11 +8,3 @@
         });
 
 
-const gallerybutton = document.getElementById('photogalleryclick');
-        const home1 = document.getElementById('home1')
-        const photogalleryclick = document.getElementById('photogalleryclick')
-
-        gallerybutton.addEventListener('click', () => {
-            home1.style.display = 'none'
-            photogalleryclick.style.display = 'flex'
-        });
