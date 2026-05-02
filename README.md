@@ -25,3 +25,6 @@ why wakatime not working lmao
 i had to reset VS bc whaaaat hell nawh
 home.js has been created by itself, idk
 i deleted some lines from html from the index
+help idk why js isnt working
+i reseted everythin lol
+i want to do all the gallery againg because its giving me a lot of problems,so plssss cunt that im putting so much effort in thissss and i want the wacom plsssss plsss

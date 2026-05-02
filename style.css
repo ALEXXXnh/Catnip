@@ -66,55 +66,12 @@
     }
 
 
-
-
-
-     .photoclickgallery
-    {
-        position:absolute;
-        top: 280px;
-        margin-left: -57%;
-        width: 860px;
-    }
-    
-#photogalleryclick 
-
-
-
-    #photodecoration .photogallerytitle
-    { 
-        display: none;
-        font-family: Georgia, monospace; 
-        font-size: 170px;
-        margin: 0;
-        position:relative;
-        top: 20px;
-        text-align: center;
-        background: linear-gradient(to bottom, #772A00 20%, #a16210 80%) !important;
-        -webkit-background-clip: text !important;
-        background-clip: text !important;
-        -webkit-text-fill-color: transparent !important;
-
-    }
-     .photoclickgallery
-    {
-        position:absolute;
-        top: 280px;
-        margin-left: -57%;
-        width: 860px;
-    }
-   
-    #photogalleryclick .photodecoration:hover {
-        transition: all 0.3s ease;
-        cursor: pointer;
-    }
-
 #game1 {
         display: none;
         text-align: center;
         width: 100%;
 }
-    #game1 h1 {
+    #game1 .title1 {
         font-family: Georgia, monospace; 
         font-size: 300px;
         margin: 0;
