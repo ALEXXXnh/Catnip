@@ -45,24 +45,20 @@
         position: relative;
         height: 50%;
         margin-top: 180px;
-        margin-left: 25%;
+        margin-left: 15%;
         width: 300px;
     }
     .playbutton {
         position: absolute;
-        z-index: 6;
+        z-index: 2;
         width:300px;
-    }
-    .playbuttonshade {
-        position: absolute;
-        top: 0px;
-        width: 300px;
-        z-index: 5;
- 
+        margin-left: -15%;
+        margin-top: -130px;
+
     }
     .playbutton:hover {
         transform: scale(1.1);
-        filter: brightness(110%);
+        filter: brightness(104%);
     }
 
 
@@ -73,15 +69,15 @@
 }
     #game1 .title1 {
         font-family: Georgia, monospace; 
-        font-size: 300px;
+        font-size: 150px;
         margin: 0;
         position: relative;
         top: 20px;
         left: 14%;
-        background: linear-gradient(to bottom, #772A00 20%, #a16210 80%) !important;
-        -webkit-background-clip: text !important;
-        background-clip: text !important;
-        -webkit-text-fill-color: transparent !important;
+        background: linear-gradient(to bottom, #772A00 20%, #a16210 80%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent ;
     }
     #game1 h1 {
         transition: all 0.3s ease;

@@ -13,9 +13,9 @@ im struggling with the sync
 still trying
 again
 again
-  <p>this is suppoused to be text no?</p>
-    <p>idk how to see what am I doing</p>
-    <p> i sthis aotomatically showing up in my demo? OK not in the demo but in the local one</p>
+this is suppoused to be text no?
+idk how to see what am I doing
+i sthis aotomatically showing up in my demo? OK not in the demo but in the local one</p>
 more notes
 im bout to cry its too hard
 im confused but i can understand some more, im searching all rules by google, today im letting this with the issues bc i want to sleep soooo bad
@@ -28,3 +28,4 @@ i deleted some lines from html from the index
 help idk why js isnt working
 i reseted everythin lol
 i want to do all the gallery againg because its giving me a lot of problems,so plssss cunt that im putting so much effort in thissss and i want the wacom plsssss plsss
+okay for the last hour i have been redoing all the redirection buttons and the effects, was really hard because i dont understand many options of java script buuut i did what i searched on google lol
