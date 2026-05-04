@@ -80,7 +80,7 @@
 
 
 
-    
+
 
 #game1 {
         display: none;
@@ -118,3 +118,8 @@
         text-align: center;
         color: #772A00;
     }
+             #puzzle-board {
+                width: 600px;
+                height: 600px;
+                display: grid;
+             }
