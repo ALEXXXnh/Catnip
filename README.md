@@ -1,5 +1,5 @@
 # Catnip
-A cat puzzle gfame made with my own cats and my first code
+A cat puzzle game made with my own cats and my first code
 i learned how to put html structure
 learned how to make letters a bit more cute
 learned how to put pngs
@@ -28,4 +28,6 @@ i deleted some lines from html from the index
 help idk why js isnt working
 i reseted everythin lol
 i want to do all the gallery againg because its giving me a lot of problems,so plssss cunt that im putting so much effort in thissss and i want the wacom plsssss plsss
-okay for the last hour i have been redoing all the redirection buttons and the effects, was really hard because i dont understand many options of java script buuut i did what i searched on google lol
+3/05/26 okay for the last hour i have been redoing all the redirection buttons and the effects, was really hard because i dont understand many options of java script buuut i did what i searched on google lol
+
+4/05/26 11.11 ive been re writing some css from the "pussle" page to attacht it correctly to html and make this a lil stable, idk anything about this so im googling everything and using YT tutorials, i can tell i understand SOOOO basic things now but i think still a progress, tmr im going to draw thmore buttons and decorations lol
