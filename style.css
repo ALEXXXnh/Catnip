@@ -143,4 +143,24 @@
         width: 50px;
         
     }
+
+    #game1 .puzzle-board {
+                position: absolute;
+                border: 12px solid #b66904; 
+                background-color: #c2a58d; 
+                padding: 0%;
+                width: 700px;
+                height: 600px;
+                display: grid;
+                left: 50%;
+                transform: translateX(-50%);
+                
+                top: 600px;
+                display: flex;
+                flex-wrap: wrap;
+               
+             }
+
+
+
             
