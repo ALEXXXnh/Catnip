@@ -87,19 +87,26 @@
         display: none;
         text-align: center;
         width: 100%;
+        
 }
     #game1 h1 {
-        padding: 2%;
+        position: relative;
+        
         font-family: Georgia, monospace; 
         font-size: 300px;
-        align-items: center;
-        position: relative;
+        
+        
+
+        padding-top: 20px;
         margin: auto;
+        margin-top: 2cm;
 
         background: linear-gradient(to bottom, #772A00 20%, #a16210 80%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent ;
+        align-items: center;
+        text-align: center;
     }
     #game1 h1 {
         transition: all 0.3s ease;
@@ -109,33 +116,31 @@
         transform: scale(1.1);
         filter: brightness(0px 0px 15px rgba (161, 98, 16, 0.5));
     }
-    #game1 .welcomepage1 {
-        font-family: cursive; 
-        font-size: 50px;
-        
-        position: relative;
-        margin: 0 auto;
+    #game1 h3 {
+        position: absolute;
+
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: 404px;
         margin-top: 500px;
-        align-items: center;
-        text-align: center;
+        
+        
+        font-family: cursive; 
+        font-size: 30px;
         color: #772A00;
+        text-align: center;
+
+
     }
+    
+   
+    
     #game1 .buttononclickback {
-        position: relative;
+        position: absolute;
         top: 20px;
         height: 50px;
         width: 50px;
         
     }
-             #puzzle-board {
-                border: 2px solid #b66904; 
-                background-color: #5a3210; 
-                padding: 0%;
-                width: 600px;
-                height: 600px;
-                display: grid;
-                margin-left: 33%;
-                position: absolute;
-                top: 600px;
-               
-             }
+            

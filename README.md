@@ -30,4 +30,6 @@ i reseted everythin lol
 i want to do all the gallery againg because its giving me a lot of problems,so plssss cunt that im putting so much effort in thissss and i want the wacom plsssss plsss
 3/05/26 okay for the last hour i have been redoing all the redirection buttons and the effects, was really hard because i dont understand many options of java script buuut i did what i searched on google lol
 
-4/05/26 11.11 ive been re writing some css from the "pussle" page to attacht it correctly to html and make this a lil stable, idk anything about this so im googling everything and using YT tutorials, i can tell i understand SOOOO basic things now but i think still a progress, tmr im going to draw thmore buttons and decorations lol
+4/05/26 11:11 ive been re writing some css from the "pussle" page to attacht it correctly to html and make this a lil stable, idk anything about this so im googling everything and using YT tutorials, i can tell i understand SOOOO basic things now but i think still a progress, tmr im going to draw thmore buttons and decorations lol
+
+5/05/26 10:27 okay i alingned the 'pussle' page to center and made all adaptable to zoom, ik its sooooo much time for a lil of change but honestly is hard for me to understand this, i had to investigate in a lot of sites how to fix it so was very tiring, i hope this can be counted in my hours 'im trying my best, i just learned how to align the contet to center and made it adaptable to zoom, ik its tso small progress but is MY progress, i hope this count'
