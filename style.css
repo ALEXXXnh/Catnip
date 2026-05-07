@@ -144,22 +144,50 @@
         
     }
 
-    #game1 .puzzle-board {
+    #puzzle-board 
+    
+               .board-container {
                 position: absolute;
                 border: 12px solid #b66904; 
                 background-color: #c2a58d; 
                 padding: 0%;
-                width: 700px;
-                height: 600px;
+                width: 1200px;
+                height: 1200px;
                 display: grid;
                 left: 50%;
                 transform: translateX(-50%);
-                
-                top: 600px;
                 display: flex;
+                top: 600px;
+                
                 flex-wrap: wrap;
                
              }
+             #puzzle-board img {
+                 
+                 display: flex;
+                 width: 398px;
+                 height: 398px;
+                 box-sizing: border-box;
+                 border: 1px solid #a16210;
+                 display: block;
+
+             }
+    #out-container-byID .out-container {
+                position: absolute;
+                border: 12px solid #b66904; 
+                background-color: #c2a58d; 
+                padding: 0%;
+                width: 800px;
+                height: 1200px;
+                display: grid;
+                left: 50%;
+                display: flex;
+                top: 600px;
+                
+                flex-wrap: wrap;
+    }         
+
+
 
 
 
