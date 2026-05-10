@@ -34,4 +34,9 @@ i want to do all the gallery againg because its giving me a lot of problems,so p
 
 5/05/26 10:27 okay i alingned the 'pussle' page to center and made all adaptable to zoom, ik its sooooo much time for a lil of change but honestly is hard for me to understand this, i had to investigate in a lot of sites how to fix it so was very tiring, i hope this can be counted in my hours 'im trying my best, i just learned how to align the contet to center and made it adaptable to zoom, ik its tso small progress but is MY progress, i hope this count'
 
+6/057- -- i forgot to write this notes but i still awake so there it is, i put the pieces container in the bottom bc i want it to look better and i didn´t want to struggle putting it aside, and i think its all lol i just worked on cleaning css and learned how padding works, isnt that big change but i like it, its easier to edit now, oh and i learned how to use the transform scales but wasn't neccesary at the end
+
+
 9/05/26 10:45 p.m. oooh i forgot to write about the previous days... nvm i think i made a journal oh and yea today i learned how to separate rge webs in my game like home is an url and pussle is another one, oh yea the day before yesterday i cutted my finger very deeply and hurts a lot when writing, today i also made the icons for button, pointer and page icon so ill made a journal, i discovered how to separate the pages looking in other HC members work, not copying just discovering and investigating wth they wrote
+
+
