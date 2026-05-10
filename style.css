@@ -1,17 +1,23 @@
-    body 
-    { 
+ body { 
             font-family: Georgia, monospace;
             font-size: 100px;
             text-align: center;
             background-color: #f1ebcf;
-    }  
-    #homepage h1 { 
+            cursor:url('pointer1.png') 2 2 auto;}
+button {
+     cursor:url('pointer2.png') 4 4, pointer;}
+
+    
+
+           #homepage 
+     h1 { 
         font-size: 200px;
         color: #a16210;
     }
     p {
         font-size: 30px;
     }
+    
     .title-box
     {
        position: relative;
@@ -58,7 +64,7 @@
     }
     .playbutton:hover {
         transform: scale(1.1);
-        filter: brightness(104%);
+        filter: brightness(120%);
     }   
     .photog {
         position: absolute;
@@ -83,13 +89,15 @@
 
 
 
-#game1 {
+
+
+.pussle {
         display: none;
         text-align: center;
         width: 100%;
         
 }
-    #game1 h1 {
+     h1 {
         position: relative;
         
         font-family: Georgia, monospace; 
@@ -108,42 +116,40 @@
         align-items: center;
         text-align: center;
     }
-    #game1 h1 {
+    h1 {
         transition: all 0.3s ease;
         cursor: pointer;
     }
-    #game1 h1:hover {
+      h1:hover {
         transform: scale(1.1);
         filter: brightness(0px 0px 15px rgba (161, 98, 16, 0.5));
     }
-    #game1 h3 {
-        position: absolute;
-
+    h3 {
+        position: relative;
         left: 50%;
         transform: translateX(-50%);
 
         width: 404px;
-        margin-top: 500px;
-        
         
         font-family: cursive; 
         font-size: 30px;
         color: #772A00;
-        text-align: center;
-
-
     }
-    
-   
-    
-    #game1 .buttononclickback {
+
+    .backbuttonimg {
         position: absolute;
-        top: 20px;
-        height: 50px;
-        width: 50px;
-        
+        top: -70px;
+        height: 350px;
+        width: 350px;
+        left: 10px;
     }
+    .backbuttonimg:hover {
+     transform: scale(1.1);
+    filter: brightness(112%);
+    }
+    
 
+    
     #puzzle-board 
     
                .board-container {
