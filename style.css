@@ -3,8 +3,8 @@
             font-size: 100px;
             text-align: center;
             background-color: #f1ebcf;
-            cursor:url('pointer1.png') 2 2 auto;}
-button {
+            cursor:url('pointer1.png') 4 4 auto;}
+   button {
      cursor:url('pointer2.png') 4 4, pointer;}
 
     
@@ -219,6 +219,7 @@ button {
                    display: block;
                    flex-wrap: wrap;
                   }
+
 
 
 
