@@ -4,12 +4,32 @@ body {
             font-size: 100px;
             text-align: center;
             background-color: #f1ebcf;
-            cursor:url('pointer1.png') 4 4 auto;
+            cursor:none;
             width: 100%;
         }
-   button {
-     cursor:url('pointer2.png') 4 4, pointer;}
+   .custom-cursor {
+        width: 80px;
+        height: 80px;
+        background-color: transparent;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 88;
+        transform: translate(-50%,-50%);
+        display: flex;
 
+    }
+     
+.B-B-2 {
+    position: relative;
+    left: -40%;
+}
+.B-B-2:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    filter: brightness(135%);
+}
     
 /*STRUCTURE*/
 
@@ -34,7 +54,6 @@ body {
         top: 120px;
         left: 50%;
         transform: translateX(-50%);
-        
         
         color: #a16210;
         margin: 0;
@@ -73,6 +92,7 @@ body {
 }    
 
 .catpic {
+    
     width: 500px;
     height: 500px;
     z-index: 2;
@@ -83,14 +103,4 @@ body {
     transition: 0.7s;
     z-index: 3;
 }
-.backbutton2 {
-    position: absolute;
-        top: -70px;
-        height: 350px;
-        width: 350px;
-        left: 10px;
-    }
-    .backbutton2:hover {
-     transform: scale(1.1);
-    filter: brightness(112%);
-    }
+    

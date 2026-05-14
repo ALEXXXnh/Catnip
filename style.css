@@ -1,16 +1,12 @@
-
-
-/*Global settings*/
-
-
 body { 
+    cursor: none;
             font-family: Georgia, monospace;
             font-size: 100px;
             text-align: center;
             background-color: #f1ebcf;
-            cursor:url('pointer1.png') 4 4 auto;}
-   button {
-     cursor:url('pointer2.png') 4 4, pointer;}
+            
+        }
+/*Global settings*/
 
     
 /*STRUCTURE*/
@@ -38,17 +34,19 @@ body {
         -webkit-text-fill-color: transparent;
     }
     .custom-cursor {
-        width: 25px;
-        height: 25px;
+        width: 60px;
+        height: 60px;
         background-color: transparent;
         position: fixed;
         top: 0;
         left: 0;
         pointer-events: none;
-        z-index: 999;
+        z-index: 88;
         transform: translate(-50%,-50%);
-    }
+        display: flex;
 
+    }
+    
 
 /*DECORATIONS AND ELEMENTS*/
 
@@ -89,13 +87,8 @@ body {
     }
     .playbutton:hover {
         
-        filter: brightness(120%);
+        filter: brightness(130%);
     }   
-    .playbutton {
-       
-        cursor:url('pointer2.png') 4 4, default;
-        
-    }
 
 
     .photodec {
@@ -110,10 +103,7 @@ body {
         filter: brightness(102%);
         transition: 1s;
     }
-    .photodec {
 
-        cursor: url('pointer2.png') 4 4, default;
-    }
 
 
 

@@ -7,6 +7,16 @@ const cursor = document.querySelector('.custom-cursor');
 
       });
 
+      document.addEventListener('mouseenter', (e) =>
+      {
+        cursor.classList.add('cursor-active')
+
+      });
+      document.addEventListener('mouseleave',() =>
+      {
+        cursor.classList.remove('cursor-active');
+      });
+
 
 const game1button = document.getElementById ('buttonchangepage1');
         const homepage = document.getElementById('homepage')
