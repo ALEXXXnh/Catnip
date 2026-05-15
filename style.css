@@ -1,5 +1,5 @@
 body { 
-    cursor: none;
+            cursor: none;
             font-family: Georgia, monospace;
             font-size: 100px;
             text-align: center;
@@ -34,14 +34,14 @@ body {
         -webkit-text-fill-color: transparent;
     }
     .custom-cursor {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
         background-color: transparent;
         position: fixed;
         top: 0;
         left: 0;
         pointer-events: none;
-        z-index: 88;
+        z-index: 990;
         transform: translate(-50%,-50%);
         display: flex;
 

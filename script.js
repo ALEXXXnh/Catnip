@@ -6,16 +6,20 @@ const cursor = document.querySelector('.custom-cursor');
         cursor.style.top = e.clientY + 'px';
 
       });
+const button = document.querySelectorAll('button');
 
-      document.addEventListener('mouseenter', (e) =>
-      {
-        cursor.classList.add('cursor-active')
-
-      });
-      document.addEventListener('mouseleave',() =>
-      {
-        cursor.classList.remove('cursor-active');
-      });
+   button.forEach(button => {
+    button.addEventListener('mouseenter', () =>
+    {
+      cursor.classList.add('active');
+    });
+    button.addEventListener('mouseleave', () =>
+    {
+      cursor.classList.remove('active');
+    });
+    
+  });
+      
 
 
 const game1button = document.getElementById ('buttonchangepage1');

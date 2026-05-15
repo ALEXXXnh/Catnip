@@ -45,4 +45,6 @@ i want to do all the gallery againg because its giving me a lot of problems,so p
 
 12/05/-- 11:15 p.m. Today i learned about transition for my hover, i finally got a progress in my custom curosor so next im gonna fix it, i fixed the homepage issues, i made every position absolute to make it easier to made changes without destroying everything,i tried to make a new css file but honestly idk how does it work i just made it because it worked on html, ill investigate later, ive already built the home page and now i just need to put the cursor follower in the other pages, built deeply de gallery css and with that i can end up with thw website to step into the java script for the jigsaw, oh and i also have to add decorations and favicons
 
-13/05/-- 11:15 today i learned how to put and made work the cursor follower, its really nice and it helped me a lot to understand js, also y fixed some gallery css issues and holy crap im so tired im going to sleep
+13/05/-- 11:15 p.m. today i learned how to put and made work the cursor follower, its really nice and it helped me a lot to understand js, also y fixed some gallery css issues and holy crap im so tired im going to sleep
+
+14/05/-- 10:58 p.m. i think im having a depresive period, nvm today i'll only active the streak making some progress in the custom cursor, i promise i'm gona make better tomorrow, i just need to keep myself alive for today, no worries if this hour does not count. 
