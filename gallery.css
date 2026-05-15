@@ -8,6 +8,7 @@ body {
             width: 100%;
         }
    .custom-cursor {
+    
         width: 80px;
         height: 80px;
         background-color: transparent;
@@ -34,6 +35,8 @@ body {
     .pointer1 {
         display: none;
         cursor:url('pointer1.png') 4 4, default;
+        width: 20px;
+        height: 20px;
         }
     
 
@@ -80,13 +83,13 @@ body {
 }
 .B-B-2:hover {
     transform: scale(1.1);
-    transition: 0.2s;
+    transition: 0;
     filter: brightness(135%);
-}
-.B-B-2 {
-     cursor:url('pointer2.png') 4 4, default;
+    transition: 0.2s;
+
+     cursor:url('pointer2.png') 4 4, default;}
    
-  }
+  
 
 .pics-container {
     position: relative;

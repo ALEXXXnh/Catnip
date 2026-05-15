@@ -6,12 +6,31 @@ body {
             background-color: #f1ebcf;
             
         }
+            .custom-cursor {
+        width: 80px;
+        height: 80px;
+        background-color: transparent;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 88;
+        transition: 5ms;
+        pointer-events: none;
+        display: flex;
+
+    }
 /*Global settings*/
 
     
 /*STRUCTURE*/
-
-           #homepage 
+    .pointer1 {
+        display: none;
+        cursor:url('pointer1.png') 4 4, default;
+        width: 20px;
+        height: 20px;
+        }
+    
      h1 { 
         position: absolute;
 
@@ -33,19 +52,8 @@ body {
         -webkit-background-clip: text; background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    .custom-cursor {
-        width: 80px;
-        height: 80px;
-        background-color: transparent;
-        position: fixed;
-        top: 0;
-        left: 0;
-        pointer-events: none;
-        z-index: 990;
-        transform: translate(-50%,-50%);
-        display: flex;
 
-    }
+
     
 
 /*DECORATIONS AND ELEMENTS*/
@@ -125,153 +133,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-.pussle {
-        display: none;
-        text-align: center;
-        width: 100%;
-        cursor:url('pointer1.png') 4 4 auto;
-        
-}
-        .backbuttonimg {
-        cursor:url('pointer2.png') 4 4, pointer;
-        }
- 
-        .pointer1 {
-        display: none;
-        cursor:url('pointer1.png') 4 4, default;
-        }
-
-     h1 {
-        position: relative;
-        
-        font-family: Georgia, monospace; 
-        font-size: 300px;
-        
-        
-
-        padding-top: 20px;
-        margin: auto;
-        margin-top: 2cm;
-
-        background: linear-gradient(to bottom, #772A00 20%, #a16210 80%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent ;
-        align-items: center;
-        text-align: center;
-    }
-    h1 {
-        transition: all 0.3s ease;
-        cursor: pointer;
-    }
-      #pussle h1:hover {
-        transform: scale(1.1);
-        filter: brightness(0px 0px 15px rgba (161, 98, 16, 0.5));
-    }
-    h3 {
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-
-        width: 404px;
-        
-        font-family: cursive; 
-        font-size: 30px;
-        color: #772A00;
-    }
-
-    .backbuttonimg {
-        position: absolute;
-        top: -70px;
-        height: 350px;
-        width: 350px;
-        left: 10px;
-    }
-    .backbuttonimg:hover {
-     transform: scale(1.1);
-    filter: brightness(112%);
-    }
-    
-
-    
-    #puzzle-board 
-    
-               .board-container {
-                
-                position: absolute;
-                border: 12px solid #b66904; 
-                background-color: #c2a58d; 
-                padding: 0%;
-                width: 900px;
-                height: 900px;
-                display: grid;
-                left: 50%;
-                transform: translateX(-50%);
-                display: flex;
-                top: 600px;
-                
-                flex-wrap: wrap;
-               
-             }
-             #puzzle-board img {
-                
-                 
-                 display: flex;
-                 width: 300px;
-                 height: 300px;
-                 box-sizing: border-box;
-                 border: 1px solid #a16210;
-                 display: block;
-
-             }
-    #out-container-byID  {
-            justify-content: center;
-            position: absolute;
-            
-            margin-top: 960px;
-
-            }
-            
-                .out-container {
-
-                
-                align-items: center;
-                left: 50%;
-                transform: translateX(-50%);
-                
-                position: absolute;
-                border: 4px solid #b66904; 
-                background-color: #c2a58d; 
-
-                width: 1350px;
-                height: 180px;
-                display: grid;
-                
-                display: flex;
-                padding: 10px;
-                
-                top: 650px;
-                
-                flex-wrap: wrap;
-    }         
-                  #out-container-byID img {
-                   
-                   
-                   width: 150px;
-                   height: 150px;
-                   box-sizing: border-box;
-                   display: block;
-                   flex-wrap: wrap;
-                  }
 
 
 

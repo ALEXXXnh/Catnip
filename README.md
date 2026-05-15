@@ -47,4 +47,6 @@ i want to do all the gallery againg because its giving me a lot of problems,so p
 
 13/05/-- 11:15 p.m. today i learned how to put and made work the cursor follower, its really nice and it helped me a lot to understand js, also y fixed some gallery css issues and holy crap im so tired im going to sleep
 
-14/05/-- 10:58 p.m. i think im having a depresive period, nvm today i'll only active the streak making some progress in the custom cursor, i promise i'm gona make better tomorrow, i just need to keep myself alive for today, no worries if this hour does not count. 
+14/05/-- 10:58 p.m. i think im having a depresive period, nvm today i'll only active the streak making some progress in the custom cursor, i promise i'm gona make better tomorrow, i just need to keep myself alive for today, no worries if this hour does not count.
+
+15/5/-- 1:46 p.m. Today i replicated the custom cursor or cursor follower into the homepage, i finally separeted the pussle css from the home css. now it doesnt feel that hard, so i keep trying to make the cursor follower work on pussle page, and also I solved some css issues from pussle too, and finally i could make my pieces container in the right side as i ever wanted, now im happy. I'll work some more later, today i had no classes in both schools so I'll be back with more new thinz:3
