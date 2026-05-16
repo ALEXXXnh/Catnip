@@ -7,7 +7,7 @@ body {
             cursor:none;
             width: 100%;
         }
-   .custom-cursor {
+.custom-cursor {
     
         width: 80px;
         height: 80px;
@@ -69,11 +69,11 @@ body {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 400px;
+        top: -100px;
         width: 600px;
         
-        font-family: 'Arial Narrow' ; 
-        font-size: 30px;
+        font-family: georgia ; 
+        font-size: 400px;
         color: #772A00;
     }
 
@@ -86,8 +86,7 @@ body {
     transition: 0;
     filter: brightness(135%);
     transition: 0.2s;
-
-     cursor:url('pointer2.png') 4 4, default;}
+}
    
   
 

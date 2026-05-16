@@ -34,13 +34,17 @@ body {
         width: 20px;
         height: 20px;
         }
+.pointer2 {
+        display: none;
+        cursor:url('pointer2.png') 4 4, default;
+        width: 20px;
+        height: 20px;
+        }
 
 
 /*STRUCTURE*/
 
-        .backbuttonimg {
-        cursor:url('pointer2.png') 4 4, pointer;
-        }
+        
  
         
 
@@ -77,8 +81,8 @@ body {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 54%;
-        margin-top: 28%;
+        top: 46%;
+        
 
         width: 16%;
         

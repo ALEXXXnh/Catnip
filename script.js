@@ -6,6 +6,7 @@ const cursor = document.querySelector('.custom-cursor');
         cursor.style.top = e.clientY + 'px';
 
       });
+
 const button = document.querySelectorAll('button');
 
    button.forEach(button => {
@@ -44,22 +45,20 @@ function back() {
         const game1button = document.getElementById ('buttonchangepage1');
         const homepage = document.getElementById('homepage')
         const game1 = document.getElementById('game1')
-            const rows = 3;
-            const columns = 3;
-            const board = document.getElementById('puzzle-board');
+
 
         game1button.addEventListener('click', () => {
             homepage.style.display = 'none'
             game1.style.display = 'flex';
 
 
-            if (board) {
-            board.style.gridTemplateColumns = `repeat(${columns}, 1fr)`;
-            board.style.gridTemplateRows = `repeat(${rows}, 1fr)`;
-    }s
-        });
-}      
+            
+    });}      
 
+ 
+const board = document.getElementById('board')
+const size = 3;
+const pieces = [];
 
 
 
