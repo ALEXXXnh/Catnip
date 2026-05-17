@@ -51,3 +51,5 @@ i want to do all the gallery againg because its giving me a lot of problems,so p
 
 15/5/-- 1:46 p.m. Today i replicated the custom cursor or cursor follower into the homepage, i finally separeted the pussle css from the home css. now it doesnt feel that hard, so i keep trying to make the cursor follower work on pussle page, and also I solved some css issues from pussle too, and finally i could make my pieces container in the right side as i ever wanted, now im happy. I'll work some more later, today i had no classes in both schools so I'll be back with more new thinz:3
 11:14 p.m. okay im actually tired and i want to die soon, i fixed the cursor follower and h3 from pussle, i started studying js functions and thats all, cya
+
+16/5/-- Today i still trying js but too hard, i separated js files from normal pages and my playable page, i cleaned my css and re-structurated my html, i tried to apply a tutorial but it didn't work or I didn't understand it soooo cya tomorrow, i'm tired

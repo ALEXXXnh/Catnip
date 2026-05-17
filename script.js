@@ -56,9 +56,11 @@ function back() {
     });}      
 
  
-const board = document.getElementById('board')
-const size = 3;
-const pieces = [];
+
+
+
+
+
 
 
 

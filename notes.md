@@ -415,11 +415,91 @@ function back() {
 
      cursor:url('pointer2.png') 4 4, default;}
 
-     
+     ######################
+  let draggedPiece = null;
 
+pieces.forEach(piece => {
 
+  piece.draggable = true;
 
+  piece.addEventListener("dragstart", () => {
+    draggedPiece = piece;
+  });
 
+  piece.addEventListener("dragover", (e) => {
+    e.preventDefault();
+  });
+
+  piece.addEventListener("drop", () => {
+
+    if (draggedPiece === piece) return;
+
+    const tempBg = piece.style.backgroundPosition;
+    piece.style.backgroundPosition =
+      draggedPiece.style.backgroundPosition;
+
+    draggedPiece.style.backgroundPosition = tempBg;
+  });
+
+});
+########################   
+
+id= "out-container-byID"
+
+#############################################
+
+THIS IS AN AI GENERATED CODE, I'M NOT USING AI IN MY CODE, BUT JS IS VERY HARD TO UNDERSTAND AND I'M ASKING AI TUTORIALS
+
+  for (let y = 0; y < size; y++) {
+  for (let x = 0; x < size; x++) {
+
+    const piece = document.createElement("div");
+
+    piece.classList.add("piece");
+
+    piece.dataset.correctX = x;
+    piece.dataset.correctY = y;
+
+     piece.style.backgroundPosition =
+      `-${x * 200}px -${y * 200}px`;
+
+    pieces.push(piece);
+  }
+}
+pieces.sort(() => Math.random() - 0.5);
+
+// Agregar al tablero
+pieces.forEach(piece => {
+  board.appendChild(piece);
+});
+
+// Drag & Drop
+let draggedPiece = null;
+
+pieces.forEach(piece => {
+
+  piece.draggable = true;
+
+  piece.addEventListener("dragstart", () => {
+    draggedPiece = piece;
+  });
+
+  piece.addEventListener("dragover", (e) => {
+    e.preventDefault();
+  });
+
+  piece.addEventListener("drop", () => {
+
+    if (draggedPiece === piece) return;
+
+    const tempBg = piece.style.backgroundPosition;
+    piece.style.backgroundPosition =
+      draggedPiece.style.backgroundPosition;
+
+    draggedPiece.style.backgroundPosition = tempBg;
+  });
+
+});
 
 
 
