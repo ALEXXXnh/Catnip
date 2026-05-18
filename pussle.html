@@ -12,7 +12,7 @@ href="pussle.css">
  
  <body>
  <h1> PUSSLE </h1>
- <a href="index.html"> <img src="backbutton.png" class="backbuttonimg" >
+ <a href="index.html"> <div class="button"><img src="backbutton.png" class="backbuttonimg" ></div>
  </a>
  
  <div class="custom-cursor"><img src="pointer1.png"></div>
@@ -21,8 +21,8 @@ href="pussle.css">
 <h3> welcome to my cars game:3</h3>
    
 
-     <div id="puzzle-board">
-        <div class="board-container">
+      <div id="puzzle-board">
+        <div id="board-container-ID" class="board-container">
             <img src="pieces/00.png" class="piece"> 
             <img src="pieces/10.png" class="piece"> 
             <img src="pieces/20.png" class="piece">
@@ -33,23 +33,24 @@ href="pussle.css">
             <img src="pieces/12.png" class="piece">
             <img src="pieces/22.png" class="piece">   
      </div>
+    
+      </div>
 
         <div id= "out-container-byID" class="out-container">    
-            <img src="pieces/00.png" class="piece"> 
-            <img src="pieces/10.png" class="piece"> 
-            <img src="pieces/20.png" class="piece">
-            <img src="pieces/01.png" class="piece"> 
-            <img src="pieces/11.png" class="piece"> 
-            <img src="pieces/21.png" class="piece">
-            <img src="pieces/02.png" class="piece">
-            <img src="pieces/12.png" class="piece">
-            <img src="pieces/22.png" class="piece">     
+            <div id="p0" class="draggable-piece-div" draggable="true"><img src="pieces/00.png" class="draggable-piece"></div>
+            <div id="p1" class="draggable-piece-div" draggable="true"><img src="pieces/10.png" class="draggable-piece"></div>
+            <div id="p2" class="draggable-piece-div" draggable="true"><img src="pieces/20.png" class="draggable-piece"></div>
+            <div id="p3" class="draggable-piece-div" draggable="true"><img src="pieces/01.png" class="draggable-piece"></div>
+            <div id="p4" class="draggable-piece-div" draggable="true"><img src="pieces/11.png" class="draggable-piece"></div>
+            <div id="p5" class="draggable-piece-div" draggable="true"><img src="pieces/21.png" class="draggable-piece"></div>
+            <div id="p6" class="draggable-piece-div" draggable="true"><img src="pieces/02.png" class="draggable-piece"></div>
+            <div id="p7" class="draggable-piece-div" draggable="true"><img src="pieces/12.png" class="draggable-piece"></div>
+            <div id="p8" class="draggable-piece-div" draggable="true"><img src="pieces/22.png" class="draggable-piece"></div>   
         </div>
             <div id="pieces-container"></div> 
 
 
         </div>
-
 
          <script src="pussle.js"></script>
 </body>

@@ -501,7 +501,195 @@ pieces.forEach(piece => {
 
 });
 
+#############################
+               #piece1 {
+                
+                 
+                 display: flex;
+                 width: 300px;
+                 height: 300px;
+                 box-sizing: border-box;
+                 border: 1px solid #a16210;
+                 display: block;
+                 
 
+             }
+             #piece2 {
+                
+                 
+                 display: flex;
+                 width: 300px;
+                 height: 300px;
+                 box-sizing: border-box;
+                 border: 1px solid #a16210;
+                 display: block;
+                 
+
+             }
+             #piece3 {
+                
+                 
+                 display: flex;
+                 width: 300px;
+                 height: 300px;
+                 box-sizing: border-box;
+                 border: 1px solid #a16210;
+                 display: block;
+                
+
+             }
+             #piece4 {
+                
+                 
+                 display: flex;
+                 width: 300px;
+                 height: 300px;
+                 box-sizing: border-box;
+                 border: 1px solid #a16210;
+                 display: block;
+                
+
+             }
+             #piece5 {
+                
+                 
+                 display: flex;
+                 width: 300px;
+                 height: 300px;
+                 box-sizing: border-box;
+                 border: 1px solid #a16210;
+                 display: block;
+                
+
+             }
+             #piece6 {
+                
+                 
+                 display: flex;
+                 width: 300px;
+                 height: 300px;
+                 box-sizing: border-box;
+                 border: 1px solid #a16210;
+                 display: block;
+                
+
+             }
+             #piece7 {
+                
+                 
+                 display: flex;
+                 width: 300px;
+                 height: 300px;
+                 box-sizing: border-box;
+                 border: 1px solid #a16210;
+                 display: block;
+                
+
+             }
+             #piece8 {
+                
+                 
+                 display: flex;
+                 width: 300px;
+                 height: 300px;
+                 box-sizing: border-box;
+                 border: 1px solid #a16210;
+                 display: block;
+                
+
+             }
+             #piece9 {
+                
+                 
+                 display: flex;
+                 width: 300px;
+                 height: 300px;
+                 box-sizing: border-box;
+                 border: 1px solid #a16210;
+                 display: block;
+                
+
+             }
+            ################################
+               <div id="piece1" draggable="true"><img src="pieces/00.png" class="piece"></div>
+            <div id="piece2" draggable="true"><img src="pieces/10.png" class="piece"></div> 
+            <div id="piece3" draggable="true"><img src="pieces/20.png" class="piece"></div>
+            <div id="piece4" draggable="true"><img src="pieces/01.png" class="piece"></div>
+            <div id="piece5" draggable="true"><img src="pieces/11.png" class="piece"></div>
+            <div id="piece6" draggable="true"><img src="pieces/21.png" class="piece"></div>
+            <div id="piece7" draggable="true"><img src="pieces/02.png" class="piece"></div>
+            <div id="piece8" draggable="true"><img src="pieces/12.png" class="piece"></div>
+            <div id="piece9" draggable="true"><img src="pieces/22.png" class="piece"></div>   
+
+###################################
+< div id="pieces-container"></div> 
+##################
+<img src="pieces/00.png" class="piece">
+            <img src="pieces/10.png" class="piece">
+            <img src="pieces/20.png" class="piece">
+            <img src="pieces/01.png" class="piece">
+            <img src="pieces/11.png" class="piece">
+            <img src="pieces/21.png" class="piece">
+            <img src="pieces/02.png" class="piece">
+            <img src="pieces/12.png" class="piece">
+            <img src="pieces/22.png" class="piece">
+
+
+############################
+ #puzzle-board 
+    
+               .board-pieces {
+                
+                position: absolute;
+                border: 12px solid #b66904; 
+                background-color: #c2a58d; 
+                padding: 0%;
+                width: 900px;
+                height: 900px;
+                display: grid;
+                left: 50%;
+                transform: translateX(-50%);
+                display: flex;
+                margin-top: 30%;
+                
+                flex-wrap: wrap;
+               
+             }
+               img {
+                
+                 
+                 display: flex;
+                 width: 300px;
+                 height: 300px;
+                 box-sizing: border-box;
+                 border: 1px solid #a16210;
+                 display: block;
+                
+
+             }
+
+###################################
+align-items:center;
+                left: 10%;
+                transform: translateX(-50%);
+                
+                position: absolute;
+                border: 4px solid #b66904; 
+                background-color: #c2a58d; 
+
+                height: 800px;
+                width: 330px;
+                display: grid;
+                
+                display: flex;
+                padding: 10px;
+                
+                top: 58%;
+                
+                flex-wrap: wrap;
+
+  #########################################
+  class="draggable-piece"
 
 
     *///

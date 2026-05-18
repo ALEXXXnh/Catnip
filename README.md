@@ -53,3 +53,5 @@ i want to do all the gallery againg because its giving me a lot of problems,so p
 11:14 p.m. okay im actually tired and i want to die soon, i fixed the cursor follower and h3 from pussle, i started studying js functions and thats all, cya
 
 16/5/-- Today i still trying js but too hard, i separated js files from normal pages and my playable page, i cleaned my css and re-structurated my html, i tried to apply a tutorial but it didn't work or I didn't understand it soooo cya tomorrow, i'm tired
+
+17/5/-- 11:57 p.m. i'm completly tired, but I keep trying, i feel like a big big step that i completly built againg html and css structure of piece just to make it fit into the js code, and using A LOT of tutorials, references. YT videos and pages to built something, my brain is tired but I want that wacom sooo bad pls pls plsssss OK its everything for today cya
