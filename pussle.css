@@ -81,16 +81,16 @@ body {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 46%;
+        
         
 
-        width: 16%;
+        width: 56%;
         
         font-family: sans-serif; 
-        font-size: 30px;
+        font-size: 200px;
         color: #772A00;
 
-        cursor: pointer;
+        
     }
 
     .backbuttonimg {
@@ -113,31 +113,36 @@ body {
     
                .board-container {
                 
-                display: block;
-                position: absolute;
-                border: 12px solid #b66904; 
-                background-color: #c2a58d; 
-                padding: 0%;
-                width: 900px;
-                height: 900px;
-                display: grid;
-                left: 50%;
-                transform: translateX(-50%);
-                display: flex;
-                margin-top: 30%;
+               
+    width: 900px;
+    height: 900px;
+border:5px solid #a16210;
+     margin-top: 500px;
                 
                 flex-wrap: wrap;
-               
-             }
-              .piece {
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+               width: 900px;
+               height: 900px;
+
+               display: grid;
+ 
+               grid-template-columns: repeat(3, 1fr);
+               grid-template-rows: repeat(3, 1fr);
+               }
+
+              .slot {
                 
                 
-                 display: flex;
+                
                  width: 300px;
                  height: 300px;
-                 box-sizing: border-box;
-                 border: 0px solid #a16210;
-                 filter: opacity(40%);
+                 
+                 border: 0px solid #772A00;
+                 filter: opacity(50%);
+                display: flex;
                 
 
              }
@@ -166,13 +171,13 @@ body {
                 height: 800px;
                 width: 320px;
                 display: grid;
-                
-                display: flex;
+               
                 padding: 5px;
                 
                 top: 58%;
                 
-                flex-wrap: wrap;
+                 flex-wrap: wrap;
+                display: flex;
 
 
     }         
@@ -182,7 +187,7 @@ body {
                    width: 150px;
                    height: 150px;
                    box-sizing: border-box;
-                   display: block;
+                   
                    flex-wrap: wrap;
 
 

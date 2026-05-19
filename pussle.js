@@ -1,38 +1,14 @@
-const cursor = document.querySelector('.custom-cursor');
-      document.addEventListener('mousemove', (e) =>
-      {
-        cursor.style.left = e.clientX + 'px';
-        cursor.style.top = e.clientY + 'px';
-
-      });
-
-const button = document.querySelectorAll('button');
-
-   button.forEach(button => {
-    button.addEventListener('mouseenter', () =>
-    {
-      cursor.classList.add('active');
-    });
-    button.addEventListener('mouseleave', () =>
-    {
-      cursor.classList.remove('active');
-    });
-    
-  });
-
-
-
-
+const welcometext = document.querySelector('h3')
+function 
 
 
 
 const board = document.querySelector('.board-container')
 
-const pieces = document.querySelectorAll('.draggable-piece-div')
+const pieces = document.querySelectorAll('.draggable-piece')
   pieces.forEach((piece, index) => {
     if(!piece.id) {
-      piece.id = 'piece-' + index
-      ;
+      piece.id = `piece-${index}`;
     }
 
   
@@ -44,9 +20,9 @@ const pieces = document.querySelectorAll('.draggable-piece-div')
   
   const size = 3;
   for (let i = 0;  i < size * size; 1++) {
-      const slot = document.createElement('div');
+      const slots = document.querySelectorAll('.slot');
 
-      slot.classList.add('board-slot');
+      slots.classList.add('board-slot');
 
       slot.addEventListener('dragover', (e) => {
         e.preventDefault();

@@ -690,6 +690,50 @@ align-items:center;
 
   #########################################
   class="draggable-piece"
+  ####################################
+  const cursor = document.querySelector('.custom-cursor');
+      document.addEventListener('mousemove', (e) =>
+      {
+        cursor.style.left = e.clientX + 'px';
+        cursor.style.top = e.clientY + 'px';
+
+      });
+
+const button = document.querySelectorAll('button');
+
+   button.forEach(button => {
+    button.addEventListener('mouseenter', () =>
+    {
+      cursor.classList.add('active');
+    });
+    button.addEventListener('mouseleave', () =>
+    {
+      cursor.classList.remove('active');
+    });
+    
+  });
+
+####################################################
+display: block;
+ 
+                position: absolute;
+                border: 12px solid #b66904; 
+                background-color: #c2a58d; 
+                padding: 0%;
+                width: 900px;
+                height: 900px;
+                display: grid;
+                left: 50%;
+                transform: translateX(-50%);
+                display: flex;
+                margin-top: 30%;
+                
+                flex-wrap: wrap;
+
+
+
+
+
 
 
     *///

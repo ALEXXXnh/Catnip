@@ -55,3 +55,5 @@ i want to do all the gallery againg because its giving me a lot of problems,so p
 16/5/-- Today i still trying js but too hard, i separated js files from normal pages and my playable page, i cleaned my css and re-structurated my html, i tried to apply a tutorial but it didn't work or I didn't understand it soooo cya tomorrow, i'm tired
 
 17/5/-- 11:57 p.m. i'm completly tired, but I keep trying, i feel like a big big step that i completly built againg html and css structure of piece just to make it fit into the js code, and using A LOT of tutorials, references. YT videos and pages to built something, my brain is tired but I want that wacom sooo bad pls pls plsssss OK its everything for today cya
+
+18/5/-- 10:16 p.m. Today i keep trying js, ik i can its just to read, try fail and repeat until it works, i tried to transform html againnnn to make it fit into the js and i had to remake css buuut its okay, i can keep trying, im tired for today, cya.
