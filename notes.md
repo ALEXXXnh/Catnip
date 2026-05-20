@@ -11,7 +11,7 @@
 
 
 {
-        display: none;
+        splay: none;
         text-align: center;
         width: 100%;
 }
@@ -57,7 +57,7 @@
 #photogalleryclicked
 
 #photogalleryclicked {
-        display: none;
+        splay: none;
         text-align: center;
         width: 100%;
 }
@@ -73,7 +73,7 @@
         position:relative;
         top: 20px;
         text-align: center;
-        background: linear-gradient(to bottom, #772A00 20%, #a16210 80%) !important;
+        background: linear-graent(to bottom, #772A00 20%, #a16210 80%) !important;
         -webkit-background-clip: text !important;
         background-clip: text !important;
         -webkit-text-fill-color: transparent !important;
@@ -83,14 +83,14 @@
 
 
 >>>>>>>>>>>> HTML
- HOME<<<<< <div><div id="photogalleryclick" class="photogallery"></div>
+ HOME<<<<< <v><v id="photogalleryclick" class="photogallery"></v>
          <img id="photodecoration" src="photodec cat.png" class="photoclickgallery">
 
 
-    <div id="photogalleryclicked"></div> 
-    <div id="gallerytitle" class="photogallerytitle">  
+    <v id="photogalleryclicked"></v> 
+    <v id="gallerytitle" class="photogallerytitle">  
         <h2>Welcome to my cat gallery</h2>
-    </div>
+    </v>
 
 
   
@@ -103,8 +103,8 @@ const gallerybutton = document.getElementById('photodecoration');
         const gallerytitle = document.getElementById('gallerytitle');
 
         gallerybutton.addEventListener('click', () => {
-            home.style.display = 'none'
-            gallerytitle.style.display = 'flex'
+            home.style.splay = 'none'
+            gallerytitle.style.splay = 'flex'
         });
 
 
@@ -123,43 +123,43 @@ const gallerybutton = document.getElementById('photodecoration');
 ############################################################
 
 
-<div id="home">
-    <div class="title-box">
-   <div class="title">
+<v id="home">
+    <v class="title-box">
+   <v class="title">
     <img src="gatologo4.png" class="decoration">
-    <div class="title">
+    <v class="title">
         <img src="gatoportada3.png" class="decoration2">
-     <h1 class="gradienttitletext"> Catnip </h1>
-     </div> 
-   </div>
-   <div id="playaction" class="play">
+     <h1 class="graenttitletext"> Catnip </h1>
+     </v> 
+   </v>
+   <v id="playaction" class="play">
     <img src="pawplay.png" class="playbutton">
     <img src="pawplayshade.png" class="playbuttonshade"> 
-    </div>
-    </div>
+    </v>
+    </v>
     
   
 
-<div id="game1">
-    <div id = "game1title" class="title1">
+<v id="game1">
+    <v id = "game1title" class="title1">
    <h1> PUSSLE </h1>
-    </div> </div>
+    </v> </v>
 
 ###########################################################
- <div id="buttonchangepage1"><button onclick="changepage">go to page 2</button>
+ <v id="buttonchangepage1"><button onclick="changepage">go to page 2</button>
     <button onclick="alternaction()">
         <h1> button</h1>
-    </button> </div>
+    </button> </v>
 
 ###########################################################
 function back() {
 
-    document.getElementById('game1').style.display = 'none'
-    document.getElementById('homepage').style.display = 'block'
+    document.getElementById('game1').style.splay = 'none'
+    document.getElementById('homepage').style.splay = 'block'
 
      game1button.addEventListener('click', () => {
-            game1.style.display = 'none';
-            homepage.style.display = 'flex'
+            game1.style.splay = 'none';
+            homepage.style.splay = 'flex'
         });
 }       
 
@@ -175,9 +175,9 @@ function back() {
 
 
 
-<div class="photog">
+<v class="photog">
     <img src="photodec cat.png" >
-        </div>
+        </v>
 
 
 ############################################################
@@ -188,7 +188,7 @@ function back() {
         margin: auto;
 
 #############################################################
-<div class="buttononclickback"> </div>
+<v class="buttononclickback"> </v>
 
 
 ##############################################################
@@ -198,10 +198,10 @@ function back() {
 s#puzzle-board {
                 border: 2px solid #b66904; 
                 background-color: #5a3210; 
-                padding: 0%;
+                padng: 0%;
                 width: 600px;
                 height: 600px;
-                display: grid;
+                splay: grid;
                 margin-left: 33%;
                 position: absolute;
                 top: 600px;
@@ -230,7 +230,7 @@ s#puzzle-board {
 margin-left: auto;
         margin-right: auto;
 #####################################
-padding-inline: 50%;
+padng-inline: 50%;
 margin-inline: 50%;
 
 
@@ -239,7 +239,7 @@ left: 25%;
         margin-right: 25%;
         margin-left: 25%;
 #######################################
- <div class="welcometext"><h3> welcome to my cars game:3</h3></div>
+ <v class="welcometext"><h3> welcome to my cars game:3</h3></v>
 
 #######################################
 
@@ -368,12 +368,12 @@ const button = document.querySelectorAll('button');
 ##############################################
 function back() {
 
-       document.getElementById('game1').style.display = 'none'
-       document.getElementById('homepage').style.display = 'block'
+       document.getElementById('game1').style.splay = 'none'
+       document.getElementById('homepage').style.splay = 'block'
 
        game1button.addEventListener('click', () => {
-              game1.style.display = 'none';
-              homepage.style.display = 'block'
+              game1.style.splay = 'none';
+              homepage.style.splay = 'block'
         });
 
         const game1button = document.getElementById ('buttonchangepage1');
@@ -384,8 +384,8 @@ function back() {
             const board = document.getElementById('puzzle-board');
 
         game1button.addEventListener('click', () => {
-            homepage.style.display = 'none'
-            game1.style.display = 'flex';
+            homepage.style.splay = 'none'
+            game1.style.splay = 'flex';
 
 
             if (board) {
@@ -453,7 +453,7 @@ THIS IS AN AI GENERATED CODE, I'M NOT USING AI IN MY CODE, BUT JS IS VERY HARD T
   for (let y = 0; y < size; y++) {
   for (let x = 0; x < size; x++) {
 
-    const piece = document.createElement("div");
+    const piece = document.createElement("v");
 
     piece.classList.add("piece");
 
@@ -505,124 +505,124 @@ pieces.forEach(piece => {
                #piece1 {
                 
                  
-                 display: flex;
+                 splay: flex;
                  width: 300px;
                  height: 300px;
                  box-sizing: border-box;
                  border: 1px solid #a16210;
-                 display: block;
+                 splay: block;
                  
 
              }
              #piece2 {
                 
                  
-                 display: flex;
+                 splay: flex;
                  width: 300px;
                  height: 300px;
                  box-sizing: border-box;
                  border: 1px solid #a16210;
-                 display: block;
+                 splay: block;
                  
 
              }
              #piece3 {
                 
                  
-                 display: flex;
+                 splay: flex;
                  width: 300px;
                  height: 300px;
                  box-sizing: border-box;
                  border: 1px solid #a16210;
-                 display: block;
+                 splay: block;
                 
 
              }
              #piece4 {
                 
                  
-                 display: flex;
+                 splay: flex;
                  width: 300px;
                  height: 300px;
                  box-sizing: border-box;
                  border: 1px solid #a16210;
-                 display: block;
+                 splay: block;
                 
 
              }
              #piece5 {
                 
                  
-                 display: flex;
+                 splay: flex;
                  width: 300px;
                  height: 300px;
                  box-sizing: border-box;
                  border: 1px solid #a16210;
-                 display: block;
+                 splay: block;
                 
 
              }
              #piece6 {
                 
                  
-                 display: flex;
+                 splay: flex;
                  width: 300px;
                  height: 300px;
                  box-sizing: border-box;
                  border: 1px solid #a16210;
-                 display: block;
+                 splay: block;
                 
 
              }
              #piece7 {
                 
                  
-                 display: flex;
+                 splay: flex;
                  width: 300px;
                  height: 300px;
                  box-sizing: border-box;
                  border: 1px solid #a16210;
-                 display: block;
+                 splay: block;
                 
 
              }
              #piece8 {
                 
                  
-                 display: flex;
+                 splay: flex;
                  width: 300px;
                  height: 300px;
                  box-sizing: border-box;
                  border: 1px solid #a16210;
-                 display: block;
+                 splay: block;
                 
 
              }
              #piece9 {
                 
                  
-                 display: flex;
+                 splay: flex;
                  width: 300px;
                  height: 300px;
                  box-sizing: border-box;
                  border: 1px solid #a16210;
-                 display: block;
+                 splay: block;
                 
 
              }
             ################################
-               <div id="piece1" draggable="true"><img src="pieces/00.png" class="piece"></div>
-            <div id="piece2" draggable="true"><img src="pieces/10.png" class="piece"></div> 
-            <div id="piece3" draggable="true"><img src="pieces/20.png" class="piece"></div>
-            <div id="piece4" draggable="true"><img src="pieces/01.png" class="piece"></div>
-            <div id="piece5" draggable="true"><img src="pieces/11.png" class="piece"></div>
-            <div id="piece6" draggable="true"><img src="pieces/21.png" class="piece"></div>
-            <div id="piece7" draggable="true"><img src="pieces/02.png" class="piece"></div>
-            <div id="piece8" draggable="true"><img src="pieces/12.png" class="piece"></div>
-            <div id="piece9" draggable="true"><img src="pieces/22.png" class="piece"></div>   
+               <v id="piece1" draggable="true"><img src="pieces/00.png" class="piece"></v>
+            <v id="piece2" draggable="true"><img src="pieces/10.png" class="piece"></v> 
+            <v id="piece3" draggable="true"><img src="pieces/20.png" class="piece"></v>
+            <v id="piece4" draggable="true"><img src="pieces/01.png" class="piece"></v>
+            <v id="piece5" draggable="true"><img src="pieces/11.png" class="piece"></v>
+            <v id="piece6" draggable="true"><img src="pieces/21.png" class="piece"></v>
+            <v id="piece7" draggable="true"><img src="pieces/02.png" class="piece"></v>
+            <v id="piece8" draggable="true"><img src="pieces/12.png" class="piece"></v>
+            <v id="piece9" draggable="true"><img src="pieces/22.png" class="piece"></v>   
 
 ###################################
-< div id="pieces-container"></div> 
+< v id="pieces-container"></v> 
 ##################
 <img src="pieces/00.png" class="piece">
             <img src="pieces/10.png" class="piece">
@@ -643,13 +643,13 @@ pieces.forEach(piece => {
                 position: absolute;
                 border: 12px solid #b66904; 
                 background-color: #c2a58d; 
-                padding: 0%;
+                padng: 0%;
                 width: 900px;
                 height: 900px;
-                display: grid;
+                splay: grid;
                 left: 50%;
                 transform: translateX(-50%);
-                display: flex;
+                splay: flex;
                 margin-top: 30%;
                 
                 flex-wrap: wrap;
@@ -658,12 +658,12 @@ pieces.forEach(piece => {
                img {
                 
                  
-                 display: flex;
+                 splay: flex;
                  width: 300px;
                  height: 300px;
                  box-sizing: border-box;
                  border: 1px solid #a16210;
-                 display: block;
+                 splay: block;
                 
 
              }
@@ -679,10 +679,10 @@ align-items:center;
 
                 height: 800px;
                 width: 330px;
-                display: grid;
+                splay: grid;
                 
-                display: flex;
-                padding: 10px;
+                splay: flex;
+                padng: 10px;
                 
                 top: 58%;
                 
@@ -714,21 +714,95 @@ const button = document.querySelectorAll('button');
   });
 
 ####################################################
-display: block;
+splay: block;
  
                 position: absolute;
                 border: 12px solid #b66904; 
                 background-color: #c2a58d; 
-                padding: 0%;
+                padng: 0%;
                 width: 900px;
                 height: 900px;
-                display: grid;
+                splay: grid;
                 left: 50%;
                 transform: translateX(-50%);
-                display: flex;
+                splay: flex;
                 margin-top: 30%;
                 
                 flex-wrap: wrap;
+##############################################
+##WELCOME WINDOW DO LATER
+<v id="welcome-modal" >
+    <v class="modal-background"></v>
+
+<v id="welcome-text"><p class="modal-text"> welcome to my cars game:3</p></v>
+
+<v id="close-button"><img src="pawplay.png" alt="close" class="closebutton"></v>
+</v>
+
+
+
+
+
+
+
+#welcome-modal {
+        display: flex;
+
+}
+
+     .modal-text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        
+        
+
+        width: 56%;
+        
+        font-family: sans-serif; 
+        font-size: 200px;
+        color: #772A00;
+
+        
+    }
+
+     .closebutton {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 330px;
+        
+        
+        width: 330px;
+        top: 90%;
+        font-family: sans-serif; 
+        font-size: 200px;
+        color: #772A00;
+}
+   
+    .modal-background {
+        
+        position: absolute;
+        
+        filter: blur(80%);
+        
+        width: 100%;
+        height: 100%;
+        width: 100%;
+        
+        z-index: 1;
+        color: #0b0501;
+    }
+
+
+
+
+
+const welcometext = document.querySelector('h3')
+function 
+
+###########################################
+
 
 
 

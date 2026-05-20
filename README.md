@@ -57,3 +57,5 @@ i want to do all the gallery againg because its giving me a lot of problems,so p
 17/5/-- 11:57 p.m. i'm completly tired, but I keep trying, i feel like a big big step that i completly built againg html and css structure of piece just to make it fit into the js code, and using A LOT of tutorials, references. YT videos and pages to built something, my brain is tired but I want that wacom sooo bad pls pls plsssss OK its everything for today cya
 
 18/5/-- 10:16 p.m. Today i keep trying js, ik i can its just to read, try fail and repeat until it works, i tried to transform html againnnn to make it fit into the js and i had to remake css buuut its okay, i can keep trying, im tired for today, cya.
+
+19/5/-- 11:52 p.m. Hiii today i hate my life and I want to be dead but i kept studying js and now i'm noticing and trying to fix a lot of issues, so today i worked on my js, i learned how to separate js scripts properly and both r working now, so also I learned a lot of how to read and use js syntax, so i'm so tired cya. (and if someone cares i'm tired all time bc I go to highschool, college and i'm a star student so its a hard workflow)
