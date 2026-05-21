@@ -45,6 +45,8 @@ body {
     }
     p {
         font-size: 30px;
+        position: absolute;
+        top: 20%;
     }
 
     .gradienttitletext {
