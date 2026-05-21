@@ -730,7 +730,10 @@ splay: block;
                 
                 flex-wrap: wrap;
 ##############################################
-##WELCOME WINDOW DO LATER
+
+
+#WELCOME WINDOW DO LATER*********
+
 <v id="welcome-modal" >
     <v class="modal-background"></v>
 
@@ -803,8 +806,116 @@ function
 
 ###########################################
 
+slots.classList.add('slots'));
 
 
+
+      board.appendChild(slot);
+  }
+
+
+
+const pieces = document.querySelectorAll('.draggable-piece')
+  pieces.forEach((piece, index) => {
+    if(!piece.id) {
+pieces.addEventListener('dragstart', (e) =>
+   {
+    e.dataTransfer.setdata('text/plain', e.target.id);
+   });
+  }});
+
+
+
+    for (let i = 0;  i < size * size; i++) 
+
+
+
+      pieces.forEach((piece) => {  
+pieces.addEventListener('dragstart', (e) =>
+   {
+    e.dataTransfer.setData('text/plain', e.target.id);
+   });
+  });
+
+
+
+  #####################
+   filter: opacity(50%);
+ filter: opacity(50%);
+ filter: opacity(50%);
+ filter: opacity(50%);
+ filter: opacity(50%);
+ filter: opacity(50%);
+ filter: opacity(50%);
+ filter: opacity(50%);
+ filter: opacity(50%);
+
+
+ ###################################################
+ ><img src="pieces/00.png"
+ ><img src="pieces/10.png"
+ ><img src="pieces/20.png"
+ ><img src="pieces/01.png"
+ ><img src="pieces/11.png"
+ ><img src="pieces/21.png"
+ ><img src="pieces/02.png"
+ ><img src="pieces/12.png"
+ ><img src="pieces/22.png"
+
+
+
+ ###################################################
+ const button = document.querySelectorAll('button');
+
+   button.forEach(button => {
+    button.addEventListener('mouseenter', () =>
+    {
+      cursor.classList.add('active');
+    });
+    button.addEventListener('mouseleave', () =>
+    {
+      cursor.classList.remove('active');
+    });
+    
+  });
+
+
+
+
+
+
+  if (draggedPiece) {
+          piecescontainer.appendChild(draggedPiece);
+        }
+
+
+
+
+
+################################
+const piecescontainer = querySelector('.out.container')
+
+        if (o.children.length === 0 && draggedPiece) {
+          slot.appendChild(draggedPiece);
+        }
+      }))
+
+
+            piecescontainer((container) => {
+
+       container.addEventListener('dragover', (e) => {
+            e.preventDefault();
+          });
+      
+        container.addEventListener('drop', (e) => {
+            e.preventDefault();
+        
+         if (piecescontainer){
+             container.appendChild(draggedPiece);
+         }
+        
+        })
+###########################################
 
 
 

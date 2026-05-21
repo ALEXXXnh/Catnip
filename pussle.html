@@ -1,6 +1,8 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon"
+href="puzzle.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pussle</title>
@@ -12,7 +14,7 @@ href="pussle.css">
  
  <body>
  <h1> PUSSLE </h1>
- <a href="index.html"> <div class="button"><img src="backbutton.png" class="backbuttonimg" ></div>
+ <a href="index.html"> <div id="button"><img src="backbutton.png" class="backbuttonimg" ></div>
  </a>
  
  <div class="custom-cursor"><img src="pointer1.png"></div>
@@ -22,36 +24,40 @@ href="pussle.css">
 
       <div id="puzzle-board">
         <div id="board-container-ID" class="board-container">
-           <div class="slot"><img src="pieces/00.png"></div> 
-           <div class="slot"><img src="pieces/10.png"></div> 
-           <div class="slot"><img src="pieces/20.png"></div>
-           <div class="slot"><img src="pieces/01.png"></div> 
-           <div class="slot"><img src="pieces/11.png"></div> 
-           <div class="slot"><img src="pieces/21.png"></div>
-           <div class="slot"><img src="pieces/02.png"></div>
-           <div class="slot"><img src="pieces/12.png"></div>
-           <div class="slot"><img src="pieces/22.png"></div>   
+           <div id="slot1" class="slot"></div>
+           <div id="slot2" class="slot"></div>
+           <div id="slot3" class="slot"></div>
+           <div id="slot4" class="slot"></div>
+           <div id="slot5" class="slot"></div>
+           <div id="slot6" class="slot"></div>
+           <div id="slot7" class="slot"></div>
+           <div id="slot8" class="slot"></div>
+           <div id="slot9" class="slot"></div>
      </div>
-    
+
       </div>
 
         <div id= "out-container-byID" class="out-container">    
-            <div id="p0" draggable="true"><img src="pieces/00.png" class="draggable-piece" draggable="true"></div>
-            <div id="p1" draggable="true"><img src="pieces/10.png" class="draggable-piece" draggable="true"></div>
-            <div id="p2" draggable="true"><img src="pieces/20.png" class="draggable-piece" draggable="true"></div>
-            <div id="p3" draggable="true"><img src="pieces/01.png" class="draggable-piece" draggable="true"></div>
-            <div id="p4" draggable="true"><img src="pieces/11.png" class="draggable-piece" draggable="true"></div>
-            <div id="p5" draggable="true"><img src="pieces/21.png" class="draggable-piece" draggable="true"></div>
-            <div id="p6" draggable="true"><img src="pieces/02.png" class="draggable-piece" draggable="true"></div>
-            <div id="p7" draggable="true"><img src="pieces/12.png" class="draggable-piece" draggable="true"></div>
-            <div id="p8" draggable="true"><img src="pieces/22.png" class="draggable-piece" draggable="true"></div>   
+            <div><img src="pieces/00.png" class="draggable-piece" id="p0" draggable="true"></div>
+            <div><img src="pieces/10.png" class="draggable-piece" id="p1" draggable="true"></div>
+            <div><img src="pieces/20.png" class="draggable-piece" id="p2" draggable="true"></div>
+            <div><img src="pieces/01.png" class="draggable-piece" id="p3" draggable="true"></div>
+            <div><img src="pieces/11.png" class="draggable-piece" id="p4" draggable="true"></div>
+            <div><img src="pieces/21.png" class="draggable-piece" id="p5" draggable="true"></div>
+            <div><img src="pieces/02.png" class="draggable-piece" id="p6" draggable="true"></div>
+            <div><img src="pieces/12.png" class="draggable-piece" id="p7" draggable="true"></div>
+            <div><img src="pieces/22.png" class="draggable-piece" id="p8" draggable="true"></div>   
         </div>
             <div id="pieces-container"></div> 
 
 
         </div>
-
+<p>welcome to my cars game:3</p>
+        
          <script src="pussle.js"></script>
-         <script src="cursor.js"></script>
+         
+         
+         
 </body>
+
 </html>

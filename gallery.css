@@ -30,6 +30,10 @@ body {
 
     p {
         font-size: 30px;
+        font-family: 'Times New Roman', Times, serif, Tahoma, sans-serif;
+        position: absolute;
+        text-align: center;
+        top: 430%;
     }
     
     .pointer1 {

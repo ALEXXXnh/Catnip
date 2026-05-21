@@ -59,3 +59,11 @@ i want to do all the gallery againg because its giving me a lot of problems,so p
 18/5/-- 10:16 p.m. Today i keep trying js, ik i can its just to read, try fail and repeat until it works, i tried to transform html againnnn to make it fit into the js and i had to remake css buuut its okay, i can keep trying, im tired for today, cya.
 
 19/5/-- 11:52 p.m. Hiii today i hate my life and I want to be dead but i kept studying js and now i'm noticing and trying to fix a lot of issues, so today i worked on my js, i learned how to separate js scripts properly and both r working now, so also I learned a lot of how to read and use js syntax, so i'm so tired cya. (and if someone cares i'm tired all time bc I go to highschool, college and i'm a star student so its a hard workflow)
+
+20-21/5/26 10:00 p.m - 1:40 a.m. FINALLY I have ended this project, I'm so so sooooo happy and proud, not related but my bf left me bc he thought I spent sm time in this so i'm satisfied at least I won this so theres the today's achievments:
+1 I can read and understand connst, functions, ifs and event listeners in js, this was the hardest thing in all this because I fell confused with all those new words, but with some help from the slack community and websites to learn about this i finally got it (just enough for this website) and i can say its done
+2 I learned how to organize html to make it work on js, I never thought classes and ids could be sooo important to js, but I understood finally
+3 I learned to relate css to js, same as html I didn't know it was so important
+4 Idk i worked a lot and make everything again and again, perseverance?
+5 I made some cute drawings (not so cool) to make page icons
+Sooo thats all, thx:3
