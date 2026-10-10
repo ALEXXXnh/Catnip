@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catnip</title>
+</head>
+<style>
+    body {
+            font-family: Georgia, monospace;
+            font-size: 100px;
+            text-align: center;
+            background-color: #f1ebcf;
+    }  
+    h1 {
+        font-size: 200px;
+        color: #a16210;
+    }
+    p {
+        font-size: 30px;
+    }
+    .title {
+        position: relative;
+        top: 20px;
+    }
+    .decoration {
+        position: absolute;
+        top: -170px;
+        left: 14%;
+        width: 450px;
+    }
+    .decoration2 {
+        position: absolute;
+        top: -140px;
+        left: 60%;
+        width: 300px;
+    }
+                   </style>
+<body>
+   <div class="title">
+    <img src="gatologo4.png" class="decoration">
+    <div class="title">
+        <img src="gatoportada3.png" class="decoration2">
+     <h1>Catnip</h1>
+     </div> 
+    <p>this is suppoused to be text no?</p>
+    <p>idk how to see what am I doing</p>
+</body>
+</html>
